@@ -1,0 +1,23 @@
+<div class="disqus"></div>
+<div class="disqus-loading">Loading comments&hellip;</div>
+<script src="https://cdn.jsdelivr.net/gh/osvaldasvalutis/disqusLoader.js/disqusloader.min.js"></script>
+<script>
+	disqusLoader( '.disqus',
+	{
+		scriptUrl:		'//<%= theme.comment.disqus.shortname %>.disqus.com/embed.js',
+		disqusConfig:	function()
+		{
+			this.page.identifier = '<%= page.permalink %>';
+			this.page.url = '<%= page.permalink %>';
+			this.page.title = '<%= page.title %>';
+			this.callbacks.onReady	= [function()
+			{
+				var el = document.querySelector( '.disqus-loading' );
+				if( el.classList )
+					el.classList.add( 'is-hidden' ); // IE 10+
+				else
+					el.className += ' ' + 'is-hidden'; // IE 8-9
+			}];
+		}
+	});
+</script>
