@@ -1,0 +1,25 @@
+<div id="gcse" style="display:none"><div class="gcse-search"></div></div>
+<div id="ls">
+    <div id="search-input">
+        <form class="input-group" autocomplete="off">
+            <input maxlength="80" type="search" id="search-field" name="s" class="form-input input-lg" placeholder="<%= __('search.placeholder') %>" required>
+            <button class="btn btn-primary input-group-btn btn-lg" type="submit"><%= __('search.main') %></button>
+        </form>
+    </div>
+    <div id="search-result-info" hidden><%- __('search.num', '<span id="search-result-num"></span>')%></div>
+    <div id="search-output"></div>
+</div>
+<script>
+    var head = document.getElementsByTagName('head')[0] || document.documentElement;
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.onload = s.onreadystatechange = function() {
+        if (!/*@cc_on!@*/0 || this.readyState === 'loaded' || this.readyState === 'complete') {
+            document.getElementById('gcse').setAttribute("style", "display:block");
+            document.getElementById('ls').setAttribute("style", "display:none");
+            document.getElementsByTagName("title")[0].innerText = 'Slowly Search By Google CSE ';
+        }
+    };
+    s.src = 'https://cse.google.com/cse.js?cx=<%= theme.search.googlecse_id %>';
+    head.appendChild(s);
+</script>
