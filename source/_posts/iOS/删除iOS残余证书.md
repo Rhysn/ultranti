@@ -21,10 +21,10 @@ iCloud 是个神奇的东西，给予 iOS 便捷云备份的同时，也存在�
 在 iOS 中使用 Surge、Thor 等抓包 App 难免会生成并安装 SSL 证书用以解密 HTTPS，从而导致了 iCloud 在新手机恢复旧机备份时， `设置 > 通用 > 关于本机 > 证书信任设置` 中存在未删除的旧证书，同时由于缺少对应的描述文件，导致无法删除、无法使用的尴尬。
 
 证书信任设置：
-![证书信任设置](https://cdn.jsdelivr.net/gh/Rhysn/Ultranti@Published/data/img/certificate.jpg)
+![证书信任设置](https://cdn.jsdelivr.net/gh/Rhysn/Ultranti@Published/data/img/20200420/certificate/certificate.jpg)
 
 描述文件：
-![描述文件](https://cdn.jsdelivr.net/gh/Rhysn/Ultranti@Published/data/img/profiles.jpg)
+![描述文件](https://cdn.jsdelivr.net/gh/Rhysn/Ultranti@Published/data/img/20200420/certificate/profiles.jpg)
 
 ## macOS 解决方案(推荐，快、易)
 
@@ -54,7 +54,7 @@ iCloud 是个神奇的东西，给予 iOS 便捷云备份的同时，也存在�
 
 在 Windows 下可通过安装 [DB Browser(SQLite)][dbbrowser] 打开并导出对应证书。
 
-![证书导出](https://cdn.jsdelivr.net/gh/Rhysn/Ultranti@Published/data/img/sqlite3.jpg)
+![证书导出](https://cdn.jsdelivr.net/gh/Rhysn/Ultranti@Published/data/img/20200420/certificate/sqlite3.jpg)
 
 注意，图中每一行为一张证书的信息，有几行就需要导出几次，导出文件的后缀需要自行修改成 `.crt` 。
 
