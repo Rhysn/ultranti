@@ -11,7 +11,7 @@ categories:
   - [iOS]
   - [Tools,DB Browser for SQLite]
 author: Rhysn
-thumbnail: https://cdn.jsdelivr.net/gh/Rhysn/Ultranti@Published/data/img/20200420/certificate/thumbnail.jpg
+thumbnail: https://cdn.jsdelivr.net/gh/Rhysn/Ultranti@Published/data/img/20200420/certificate/thumbnail.png
 date: 2020-04-20 16:16:29
 urlname: ios_delete_certificate_on_windows
 ---
