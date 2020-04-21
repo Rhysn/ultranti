@@ -2,10 +2,10 @@
 title: Hexo + Github + Netlify 构建持续集成型静态博客
 tags:
   - netlify
-  - Hexo
+  - hexo
   - github
 categories:
-  - [Hexo]
+  - [hexo]
 author: Rhysn
 thumbnail: https://cdn.jsdelivr.net/gh/Rhysn/Ultranti@Published/data/img/20200410/netlifyblog/thumbnail.png
 date: 2020-04-10 16:15:25

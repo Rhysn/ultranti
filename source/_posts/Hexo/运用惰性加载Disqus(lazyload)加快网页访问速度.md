@@ -2,10 +2,10 @@
 title: 运用惰性加载Disqus(lazyload)加快网页访问速度
 tags:
   - lazyload
-  - Hexo
-  - Disquse
+  - hexo
+  - disquse
 categories:
-  - [Hexo]
+  - [hexo]
 author: Rhysn
 thumbnail: https://cdn.jsdelivr.net/gh/Rhysn/Ultranti@Published/data/img/20200413/lazy-loading-disqus/thumbnail.png
 date: 2020-04-13 11:18:54

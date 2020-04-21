@@ -9,7 +9,7 @@ tags:
   - DB Browser for SQLite
 categories:
   - [iOS]
-  - [Tools,DB Browser for SQLite]
+  - [tools,DB Browser for SQLite]
 author: Rhysn
 thumbnail: https://cdn.jsdelivr.net/gh/Rhysn/Ultranti@Published/data/img/20200420/certificate/thumbnail.png
 date: 2020-04-20 16:16:29

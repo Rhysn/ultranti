@@ -2,10 +2,10 @@
 title: Surge Module 用法尝试
 tags:
   - Surge
-  - Script
-  - TestFlight
+  - script
+  - testflight
 categories:
-  - [Tools,Surge]
+  - [tools,Surge]
 author: Rhysn
 thumbnail: https://cdn.jsdelivr.net/gh/Rhysn/Ultranti@Published/data/img/20200414/SurgeModule/thumbnail.jpg
 date: 2020-04-14 16:56:29

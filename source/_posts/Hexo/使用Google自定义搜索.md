@@ -1,11 +1,11 @@
 ---
 title: 使用 Google 自定义搜索
 tags:
-  - Google
+  - google
   - cse
-  - Disquse
+  - disqus
 categories:
-  - [Hexo,search]
+  - [hexo,search]
 author: Rhysn
 thumbnail: https://cdn.jsdelivr.net/gh/Rhysn/Ultranti@Published/data/img/20200416/google_search_cse_hexo/thumbnail.png
 date: 2020-04-16 16:53:54
