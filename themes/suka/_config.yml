@@ -226,6 +226,9 @@ analytics:
   tencent_site_id:
   tencent_mta_id:
 
+manager:
+  gtm_id: GTM-NHMZ3G5
+
 # Views Analytics
 # Busuanzi
 # The counter by https://busuanzi.ibruce.info

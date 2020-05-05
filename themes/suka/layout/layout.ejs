@@ -4,6 +4,9 @@
     <%- partial('_partial/head/index') %>
 
     <body>
+            <% if (theme.manager.gtm_id) { %>
+                <%- partial('_plugin/manager/gtm/gtm_body', {}, {cache: theme.fragment_cache}) %>
+            <% } %>
             <% if (theme.comment.use === 'facebook') { %>
                 <% if ( (is_post()) ) { %>
                     <!-- Facebook SDK -->
