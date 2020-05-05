@@ -1,0 +1,11 @@
+<% if (theme.vendors.suka.local_search_js) { %>
+    <script src="<%= theme.vendors.suka.local_search_js %>"></script>
+<% } else { %>
+    <script src="<%- url_for('js/local-search.min.js') %>"></script>
+<% } %>
+<script>
+    (function () {
+        var searchNoResult = "<div class='search-noresult'><span><%= __('search.noresult') %></div>"
+        window.searchFunc('<%= url_for(config.suka_theme.search.path) %>', searchNoResult);
+    })();
+</script>
