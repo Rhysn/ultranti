@@ -1,4 +1,3 @@
 User-agent: *
-Disallow: /search
 Disallow: /404
 Sitemap: https://ultranti.com/sitemap.xml

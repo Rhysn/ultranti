@@ -2,5 +2,5 @@
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
     <ShortName>Ultranti</ShortName>
     <Description>Ultra Anti</Description>
-    <Url type="text/html" template="https://ultranti.com/search?s={searchTerms}" />
+    <Url type="text/html" template="https://ultranti.com/search?q={searchTerms}" />
 </OpenSearchDescription>
