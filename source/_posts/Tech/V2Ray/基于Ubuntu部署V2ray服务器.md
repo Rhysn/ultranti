@@ -15,9 +15,9 @@ categories:
   - [Docker]
   - [科学上网]
 author: Rhysn
-thumbnail: https://cdn.jsdelivr.net/gh/Rhysn/Ultranti@Published/data/img/20200905/V2ray/thumbnail.png
+thumbnail: https://raw.githubusercontent.com/Rhysn/Ultranti/Published/data/img/20200905/V2ray/thumbnail.png
 date: 2020-09-05 09:37:28
-urlname: setting_V2ray_on_Ubuntu。
+urlname: setting_V2ray_on_Ubuntu
 ---
 
 最近[腾讯云][tencentcloud]开展了10周年优惠活动，整体活动力度很大，我也借机使用了新用户特惠，花费528元购买了3年香港云服务器，也借此使用Docker部署了V2ray，给科学上网又开了一道门。
@@ -102,7 +102,7 @@ sudo docker run hello-world
 
 显示如下：
 
-![helloworld](https://cdn.jsdelivr.net/gh/Rhysn/Ultranti@Published/data/img/20200905/V2ray/helloworld.jpg)
+![helloworld](https://raw.githubusercontent.com/Rhysn/Ultranti/Published/data/img/20200905/V2ray/helloworld.jpg)
 
 6. 查看 Dockers 版本
 
@@ -112,7 +112,7 @@ docker version
 
 信息如下：
 
-![dockerversion](https://cdn.jsdelivr.net/gh/Rhysn/Ultranti@Published/data/img/20200905/V2ray/version.jpg)
+![dockerversion](https://raw.githubusercontent.com/Rhysn/Ultranti/Published/data/img/20200905/V2ray/version.jpg)
 
 至此Docker社区版就已经安装完成。
 
@@ -187,7 +187,7 @@ docker container ls
 
 结果如下：
 
-![container](https://cdn.jsdelivr.net/gh/Rhysn/Ultranti@Published/data/img/20200905/V2ray/container.jpg)
+![container](https://raw.githubusercontent.com/Rhysn/Ultranti/Published/data/img/20200905/V2ray/container.jpg)
 
 
 
@@ -201,7 +201,7 @@ docker container ls
 
 使用 Surge 测速尝试。
 
-![speed](https://cdn.jsdelivr.net/gh/Rhysn/Ultranti@Published/data/img/20200905/V2ray/speed.jpg)
+![speed](https://raw.githubusercontent.com/Rhysn/Ultranti/Published/data/img/20200905/V2ray/speed.jpg)
 
 
 
