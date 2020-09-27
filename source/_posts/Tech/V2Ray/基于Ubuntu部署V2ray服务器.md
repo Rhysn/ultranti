@@ -15,7 +15,7 @@ categories:
   - [Docker]
   - [科学上网]
 author: Rhysn
-thumbnail: https://raw.githubusercontent.com/Rhysn/Ultranti/Published/data/img/20200905/V2ray/thumbnail.png
+thumbnail: https://cdn.jsdelivr.net/gh/Rhysn/Ultranti@Published/data/img/20200905/V2ray/thumbnail.png
 date: 2020-09-05 09:37:28
 urlname: setting_V2ray_on_Ubuntu
 ---
@@ -102,7 +102,7 @@ sudo docker run hello-world
 
 显示如下：
 
-![helloworld](https://raw.githubusercontent.com/Rhysn/Ultranti/Published/data/img/20200905/V2ray/helloworld.jpg)
+![helloworld](https://cdn.jsdelivr.net/gh/Rhysn/Ultranti@Published/data/img/20200905/V2ray/helloworld.jpg)
 
 6. 查看 Dockers 版本
 
@@ -112,7 +112,7 @@ docker version
 
 信息如下：
 
-![dockerversion](https://raw.githubusercontent.com/Rhysn/Ultranti/Published/data/img/20200905/V2ray/version.jpg)
+![dockerversion](https://cdn.jsdelivr.net/gh/Rhysn/Ultranti@Published/data/img/20200905/V2ray/version.jpg)
 
 至此Docker社区版就已经安装完成。
 
@@ -187,7 +187,7 @@ docker container ls
 
 结果如下：
 
-![container](https://raw.githubusercontent.com/Rhysn/Ultranti/Published/data/img/20200905/V2ray/container.jpg)
+![container](https://cdn.jsdelivr.net/gh/Rhysn/Ultranti@Published/data/img/20200905/V2ray/container.jpg)
 
 
 
@@ -201,8 +201,7 @@ docker container ls
 
 使用 Surge 测速尝试。
 
-![speed](https://raw.githubusercontent.com/Rhysn/Ultranti/Published/data/img/20200905/V2ray/speed.jpg)
-
+![speed](https://cdn.jsdelivr.net/gh/Rhysn/Ultranti@Published/data/img/20200905/V2ray/speed.jpg)
 
 
 一个简单的 Vess 科学上网环境就搭配完成了，虽然整体服务器速度有限，但是整体搭建过程还是很顺畅的。
